@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100%;   
+    background-image: url(janko-ferlic-ypS9j3UzqLk-unsplash.jpg);
+    background-size: cover;
+}
+.image-container { 
+    background-image: url(janko-ferlic-ypS9j3UzqLk-unsplash.jpg);
+    
+}
+.navbar-container1 {
+    padding: 8px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: black;
+    overflow: hidden;
+}
+.navbar-container1 a {
+    display: flex;
+    
+}
+
+
