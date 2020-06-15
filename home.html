@@ -4,18 +4,67 @@
 <head>
     <meta charset="utf-8">
     <link href="home.css" rel="stylesheet">
+    <script src="home.js"></script>
     <title>Zoo Home screen</title>
 </head>
 
 <body>
     <div class="container">
         <div class="navbar-container1">
-        <ul>
-            <li><a href="#PRESSE"></a></li>
-            <li><a href="LINKS"></a></li>
-        </ul>
-        </div> 
+            <nav class="menu-top-navigation" role="navigation">
+                <ul class="top-list">
+                    <li><a href="#PRESSE" class="presse">PRESSE</a></li>
+                    <li><a href="#LINKS" class="links">LINKS</a></li>   
+                </ul>
+            </nav>
+       
+        </div>
+        <div class="navbar-container2">
+            <nav class="menu-bottom-navigation">
+                <ul class="top-list2">
+                    <li><a href="#DerZoo">DER ZOO</a></li>
+                    <li><a href="#ErlebnisZoo">ERLEBNIS ZOO</a></li>
+                    <li><a href="#Unterstüzen">UNTERSTÜTZEN</a></li>
+                    <img class="img-p" src="logo-40-weiss.png">
+                    <li><a href="#Aktuelles">AKTUELLES</a></li>
+                    <li><a href="#Kontakt">KONTAKT</a></li>
+                    <li><a href="#Öffnungszeiten">ÖFFNUNGSZEITEN & PREISE</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="slideshow-container">
+            <div class="Slide-fade">
+                <div class="container1">
+            <h1 id="header">HERZLICH WILLKOMMEN IM ZOO LINZ</h1>
+            <p>
+                <a  href="">365 tage im jahr geöffnet</a>
+            </p>
+            <br>
+            <br>
+            <br>
+            <p id="text">
+                <a href="">wir verstärken unser team</a>
+            </p>
+            <ol class="slider-lines">
+                <li class="lines" onclick="showSlides(1)"></li>
+                <li class="lines" onclick="showSlides(2)"></li>
+                <li class="lines" onclick="showSlides(3)"></li>
+                </ol>
+
+           </div>
+          
+        </div>
+        
+       
+        </div>
+        
+        </div>
+       
+        </div>
     </div>
+    <div class="Slide-fade">
+        <img src="img_1491_0.jpg" style="width: 100%;">
+    </div>    
 </body>
 
 </html>
